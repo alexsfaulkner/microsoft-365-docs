@@ -63,18 +63,22 @@ In all scenarios, data is encrypted using 256-bit [AES encryption](https://en.wi
 
 ## Data storage location
 
-Defender for Endpoint operates in the Microsoft Azure datacenters in the European Union, the United Kingdom, or in the United States. Customer data collected by the service may be stored in: (a) the geo-location of the tenant as identified during provisioning or, (b) if Defender for Endpoint uses another Microsoft online service to process such data, the geolocation as defined by the data storage rules of that other online service.
+Defender for Endpoint operates in the Microsoft Azure datacenters in the European Union, the United Kingdom, or in the United States. Customer data collected by the service may be stored in: (a) the geo-location of the tenant as identified during provisioning or, (b) if Defender for Endpoint uses another Microsoft online service to process such data, the geolocation as defined by the data storage rules of that other online service. For more information, see [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations).
 
 Customer data in pseudonymized form may also be stored in the central storage and processing systems in the United States.
 
 Once configured, you cannot change the location where your data is stored. This provides a convenient way to minimize compliance risk by actively selecting the geographic locations where your data will reside.
+
+
 
 ## Data sharing for Microsoft Defender for Endpoint
 
 Microsoft Defender for Endpoint shares data, including customer data, among the following Microsoft products also licensed by the customer.
 
 - Microsoft Sentinel
-- Microsoft Tunnel for Mobile Application Management - Android 
+- Microsoft Tunnel for Mobile Application Management - Android
+- Microsoft Defender for Cloud
+- Microsoft Defender for Identity
 
 ## Is my data isolated from other customer data?
 
@@ -94,7 +98,7 @@ Access to data for services deployed in Microsoft Azure Government data centers 
 
 ## Is data shared with other customers?
 
-No. Customer data is isolated from other customers and is not shared. However, insights on the data resulting from Microsoft processing, and which don't contain any customer-specific data, might be shared with other customers. Each customer can only access data collected from its own organization and generic data that Microsoft provides.
+No. Customer data is isolated from other customers and is not shared. However, threat intelligence on the data resulting from Microsoft processing, and which don't contain any customer-specific data, might be shared with other customers. Each customer can only access data collected from its own organization and generic data that Microsoft provides.
 
 ## How long will Microsoft store my data? What is Microsoft's data retention policy?
 
@@ -119,3 +123,4 @@ By providing customers with compliant, independently verified services, Microsof
 For more information on the Defender for Endpoint certification reports, see [Microsoft Trust Center](https://servicetrust.microsoft.com/). 
 
 > Want to experience Defender for Endpoint? [Sign up for a free trial.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-datastorage-belowfoldlink)
+[!INCLUDE [Microsoft Defender for Endpoint Tech Community](../../includes/defender-mde-techcommunity.md)]

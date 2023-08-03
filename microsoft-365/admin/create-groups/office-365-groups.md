@@ -1,6 +1,7 @@
 ---
 title: "Overview of Microsoft 365 Groups for administrators"
 ms.reviewer: arvaradh
+ms.date: 02/18/2020
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -37,14 +38,14 @@ Microsoft 365 Groups is the foundational membership service that drives all team
 - A Planner
 - A OneNote notebook
 - Power BI
-- Yammer (if the group was created from Yammer)
+- Viva Engage (if the group was created from Viva Engage)
 - A Team (if the group was created from Teams)
 - Roadmap (if you have Project for the web)
 - Stream
 
 With a Microsoft 365 group, you don't have to manually assign permissions to each of these resources. Adding people to the group automatically gives them the permissions they need.
 
-Any user can create a group unless you [limit group creation to a specific set of people](../../solutions/manage-creation-of-groups.md). If you limit group creation, users who cannot create groups will not be able to create SharePoint sites, Planners, teams, Outlook group calendars, Stream groups, Yammer groups, Shared libraries in OneDrive, or shared Power BI workspaces. These services require the people creating them to be able to create a group. Users can still participate in group activities, such as creating tasks in Planner or using Teams chat, provided they are a member of the group.
+Any user can create a group unless you [limit group creation to a specific set of people](../../solutions/manage-creation-of-groups.md). If you limit group creation, users who cannot create groups will not be able to create SharePoint sites, Planners, teams, Outlook group calendars, Stream groups, Viva Engage groups, Shared libraries in OneDrive, or shared Power BI workspaces. These services require the people creating them to be able to create a group. Users can still participate in group activities, such as creating tasks in Planner or using Teams chat, provided they are a member of the group.
 
 Groups have the following roles:
 
@@ -119,7 +120,6 @@ Microsoft 365 groups work with Azure Active Directory. The groups features you g
 ## Related content
 
 [Learn about Microsoft 365 Groups](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (article)\
-[Upgrade distribution lists to Microsoft 365 Groups](../manage/upgrade-distribution-lists.md) (article)\
 [Manage Microsoft 365 Groups with PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (article)\
 [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) (article)\
 [Organize groups and channels in Microsoft Stream](/stream/groups-channels-organization) (article)

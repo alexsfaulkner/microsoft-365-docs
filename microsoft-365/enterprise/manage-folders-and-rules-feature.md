@@ -3,6 +3,7 @@ title: "Manage Folders and Rules feature in Microsoft 365 Groups"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+ms.date: 08/18/2022
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -34,6 +35,8 @@ Admin can enable the feature with the help of cmdlet `Set-OrganizationConfig -Is
    Possible values: true/false
 
    Default Value: false
+
+   Regardless of whether the `IsGroupFoldersAndRulesEnabled` parameter is turned off, the **Inbox** and **Deleted items** folders will still be shown, if there are any deleted items in the group.
 
 > [!NOTE]
 > Once the `IsGroupFoldersAndRulesEnabled` parameter is turned off after creating some folder and rules,

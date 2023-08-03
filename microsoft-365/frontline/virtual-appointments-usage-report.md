@@ -27,7 +27,7 @@ ms.date: 02/01/2023
 
 ![Information icon](media/info.png) **This feature requires a [Teams Premium](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams) or a Teams EHR connector license.**
 
-The Virtual Appointments usage report in the Microsoft Teams admin center gives you an overview of Teams Virtual Appointments activity in your organization. You can view detailed activity for virtual appointments scheduled through the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) and the [Microsoft Teams Electronic Health Record (EHR) connector](teams-in-hc.md#virtual-appointments-and-electronic-healthcare-record-ehr-integration).
+The Virtual Appointments usage report in the Microsoft Teams admin center gives you an overview of Teams Virtual Appointments activity in your organization. You can view detailed activity for virtual appointments scheduled through the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) and the [Microsoft Teams Electronic Health Record (EHR) connector](teams-in-hc.md#provide-seamless-virtual-visits).
 
 To view the report, you must be a Global admin, Teams admin, Global reader, or Report reader.
 
@@ -78,7 +78,7 @@ Here's what you'll see on each tab of the report.
 
 The graphs you'll see here depend on the license you have.
 
-:::image type="content" source="media/va-usage-report-virtual-appointments.png" alt-text="Screenshot of the Virtual Appointments tab of the Virtual Appointments usage report showing numbered callouts." lightbox="media/va-usage-report-virtual-appointments.png":::
+:::image type="content" source="media/virtual-appts-report.png" alt-text="Screenshot of the Virtual Appointments tab of the Virtual Appointments usage report showing numbered callouts." lightbox="media/virtual-appts-report.png":::
 
 |Callout |Description  |
 |--------|-------------|
@@ -91,7 +91,7 @@ The graphs you'll see here depend on the license you have.
 
 ### Duration
 
-:::image type="content" source="media/va-usage-report-duration.png" alt-text="Screenshot of the Duration tab of the Virtual Appointments usage report showing numbered callouts." lightbox="media/va-usage-report-duration.png":::
+:::image type="content" source="media/duration-report.png" alt-text="Screenshot of the Duration tab of the Virtual Appointments usage report showing numbered callouts." lightbox="media/duration-report.png":::
 
 |Callout |Description  |
 |--------|-------------|
@@ -106,7 +106,7 @@ The graphs you'll see here depend on the license you have.
 
 This tab shows appointments scheduled through Bookings.
 
-:::image type="content" source="media/va-usage-report-bookings.png" alt-text="Screenshot of the Bookings tab of the Virtual Appointments usage report showing numbered callouts." lightbox="media/va-usage-report-bookings.png":::
+:::image type="content" source="media/bookings-report.png" alt-text="Screenshot of the Bookings tab of the Virtual Appointments usage report showing numbered callouts." lightbox="media/bookings-report.png":::
 
 |Callout |Description  |
 |--------|-------------|

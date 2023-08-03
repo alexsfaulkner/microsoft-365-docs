@@ -4,6 +4,7 @@ ms.author: alexfaulkner
 author: johnddeweese
 manager: alexfaulkner
 ms.reviewer:
+ms.date: 11/04/2021
 audience: admin
 ms.topic: article
 ms.custom:
@@ -12,7 +13,6 @@ search.appverid: MET150
 ms.collection:
 ms.localizationpriority: medium
 description: Learn how to manage sharing for Microsoft Whiteboard.
-
 ---
 
 # Manage sharing for Microsoft Whiteboard
@@ -63,7 +63,7 @@ These changes should take approximately 60 minutes to apply across your tenancy.
 |---|---|---|---|
 |Start the whiteboard from a desktop or mobile device|Storage: OneDrive for Business<br><br>Owner: User who creates the whiteboard|Enabled|In-tenant users: Can create, view, and collaborate<br><br>External users: Can view and collaborate during the meeting only (the button to share a whiteboard won't appear for external users)<br><br>Shared device accounts: Can view and collaborate during the meeting only|
 |Start the whiteboard from a desktop or mobile device|Storage: OneDrive for Business<br><br>Owner: User who creates the whiteboard|Disabled|In-tenant users: Can initiate, view, and collaborate<br><br>External users: Can't view or collaborate<br><br>Shared device accounts: Can't view or collaborate|
-|Start the whiteboard from a Surface Hub or Microsoft Teams Rooms|Storage: Azure (Whiteboard files will be moved to OneDrive for Business in the future)<br><br>Owner: Meeting participant|Not applicable|In-tenant users: Can initiate, view, and collaborate<br><br>External users: Can view and collaborate during the meeting only<br><br> Shared device accounts: Can view and collaborate during the meeting only|
+|Start the whiteboard from a Surface Hub or Microsoft Teams Rooms|Storage: Azure (Whiteboard files will be moved to OneDrive for Business in the future)<br><br>Owner: Meeting participant|Not applicable|In-tenant users: Can initiate, view, and collaborate<br><br>External users: Can view and collaborate during the meeting only<br><br> Shared device accounts: Can initiate, view, and collaborate during the meeting only|
 
 > [!NOTE]
 > If a Whiteboard is stored in OneDrive and already attached to a meeting, it cannot be initiated on a Surface Hub or Microsoft Teams Rooms device. An authenticated user on another device will need to do so. We plan to enable this functionality in a future release.
@@ -91,7 +91,7 @@ When you share whiteboards from the web, desktop, or mobile clients, you can cho
 |Scenario|Storage and ownership|Sharing settings|Sharing experience|
 |---|---|---|---|
 |Create the whiteboard from a desktop or mobile device|Storage: OneDrive for Business<br><br>Owner: User who creates the whiteboard|Not applicable (only applies to meetings)|In-tenant users: Can share within their organization<br><br>External users: Sharing with external users isn't supported at this time|
-|Create the whiteboard from a Surface Hub|Storage: Local<br><br>Owner: None (Unless user sign ins to save and share the board, which saves to OneDrive for Business. Easy share will be added back in the future.|Not applicable (only applies to meetings)|In-tenant users: User must sign in to save and share the board (Easy share will be added in the future)<br><br>External users: Sharing with external users isn't supported at this time outside of a Teams meeting|
+|Create the whiteboard from a Surface Hub|Storage: Local<br><br>Owner: None (Unless user sign ins to save and share the board, which saves to OneDrive for Business. |Not applicable (only applies to meetings)|In-tenant users: User must sign in to save and share the board <br><br>External users: Sharing with external users isn't supported at this time outside of a Teams meeting|
 |Create the whiteboard from Microsoft Teams Rooms|Not yet supported|Not applicable (only applies to meetings)|Not yet supported|
 
 ## See also

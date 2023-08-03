@@ -14,7 +14,8 @@ audience: ITPro
 ms.collection: 
 - m365-security
 - tier3
-ms.topic: conceptual
+- must-keep
+ms.topic: reference
 ms.subservice: mde
 ms.custom: api
 search.appverid: met150
@@ -27,6 +28,7 @@ ms.date: 06/01/2022
 
 **Applies to:**
 
+- [Microsoft Defender for Endpoint Plan 1](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft Defender for Endpoint Plan 2](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft Defender Vulnerability Management](../defender-vulnerability-management/index.yml)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
@@ -73,7 +75,7 @@ Delegated (work or school account)|Software.Read|'Read Threat and Vulnerability 
 ### 1.3 URL
 
 ```http
-GET api/Machines/BrowserExtensionsInventoryByMachine
+GET /api/Machines/BrowserExtensionsInventoryByMachine
 ```
 
 ### 1.4 Parameters
@@ -181,7 +183,7 @@ Delegated (work or school account)|Software.Read|'Read Threat and Vulnerability 
 ### 2.3 URL
 
 ```http
-GET /api/Machines/BrowserExtensionsInventoryByMachine
+GET /api/machines/browserextensionsinventoryExport
 ```
 
 ### 2.4 Parameters
@@ -210,7 +212,7 @@ GeneratedTime|string|The time that the export was generated.|2021-05-20T08:00:00
 #### 2.6.1 Request example
 
 ```http
-GET https://api.securitycenter.microsoft.com/api/machines/BrowserExtensionsExport
+GET https://api.securitycenter.microsoft.com/api/machines/browserextensionsinventoryExport
 ```
 
 #### 2.6.2 Response example
@@ -236,3 +238,4 @@ GET https://api.securitycenter.microsoft.com/api/machines/BrowserExtensionsExpor
 
 - [Vulnerability management](../defender-vulnerability-management/defender-vulnerability-management.md)
 - [Vulnerabilities in your organization](../defender-vulnerability-management/tvm-weaknesses.md)
+[!INCLUDE [Microsoft Defender for Endpoint Tech Community](../../includes/defender-mde-techcommunity.md)]

@@ -1,8 +1,9 @@
 ---
-title: "Manage who can create Microsoft 365 Groups"
+title: Manage who can create Microsoft 365 Groups
 f1.keywords: NOCSH
 ms.author: mikeplum
-ms.reviewer: arvaradh
+ms.reviewer: rahulnayak
+ms.date: 07/28/2023
 author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
@@ -18,7 +19,7 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 recommendations: false
-description: "Learn how to control which users can create Microsoft 365 Groups."
+description: Learn how to control which users can create Microsoft 365 Groups.
 ---
 
 # Manage who can create Microsoft 365 Groups
@@ -33,9 +34,8 @@ When you limit who can create a group, it affects all services that rely on grou
 
 - Outlook
 - SharePoint
-- Yammer
+- Viva Engage
 - Microsoft Teams
-- Microsoft Stream
 - Planner
 - Power BI (classic)
 - Project for the web / Roadmap

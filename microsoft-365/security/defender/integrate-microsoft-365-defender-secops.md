@@ -16,9 +16,8 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: 
-  - m365-security
-  - m365solution-m365dsecops
-  - m365solution-overview
+  - zerotrust-solution
+  - msftsolution-secops
   - tier2
 ms.topic: conceptual
 search.appverid: 
@@ -45,9 +44,8 @@ If you are not already familiar with Microsoft 365 Defender, see these articles:
 
 If your organization has already implemented some aspects of Microsoft 365 Defender, these articles can either affirm or help improve your existing architecture and processes.
 
->[!Note]
->As a Microsoft partner, Protiviti contributed to and provided material feedback to this article.
->
+> [!NOTE]
+> As a Microsoft partner, Protiviti contributed to and provided material feedback to this article.
 
 ## Target audience
 
@@ -74,3 +72,4 @@ Use these steps to integrate Microsoft 365 Defender into your SOC.
 
 
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/defender-m3d-techcommunity.md)]

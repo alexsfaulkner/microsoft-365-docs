@@ -10,7 +10,7 @@ ms.topic: overview
 ms.service: microsoft-365-security
 ms.subservice: mde
 ms.localizationpriority: medium
-ms.date: 01/27/2023
+ms.date: 06/19/2023
 ms.reviewer: shlomiakirav
 f1.keywords: NOCSH
 ms.collection: 
@@ -21,7 +21,9 @@ ms.collection:
 # Set up and configure Microsoft Defender for Endpoint Plan 1
 
 **Applies to:**
+
 - [Microsoft Defender for Endpoint Plan 1](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender for Endpoint Plan 2](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 This article describes how to set up and configure Defender for Endpoint Plan 1. Whether you have assistance or are doing it yourself, you can use this article as a guide throughout your deployment.  
 
@@ -50,7 +52,7 @@ The following table lists the basic requirements for Defender for Endpoint Plan 
 |:---|:---|
 | Licensing requirements | Defender for Endpoint Plan 1 (standalone, or as part of Microsoft 365 E3 or A3) |
 | Browser requirements | Microsoft Edge <br/> Internet Explorer version 11 <br/> Google Chrome |
-| Operating systems | Windows 11, or Windows 10, version 1709, or later <br/>macOS (the three most recent releases are supported) <br/>iOS <br/>Android OS <br/><br/>Note that the standalone version of Defender for Endpoint Plan 1 does not include server licenses. To onboard servers, you'll need either Microsoft Defender for Endpoint for Servers, or Defender for Servers Plan 1 or Plan 2 (as part of the [Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction)) offering. To learn more. see [Defender for Endpoint onboarding Windows Server](onboard-windows-server.md). |
+| Operating systems | Windows 11, or Windows 10, version 1709, or later <br/>macOS (the three most recent releases are supported) <br/>iOS <br/>Android OS <br/><br/>Note that the standalone version of Defender for Endpoint Plan 1 does not include server licenses. To onboard servers, you'll require an additional license, such as Microsoft Defender for Servers Plan 1 or Plan 2 (as part of the [Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction)) offering. To learn more. see [Defender for Endpoint onboarding Windows Server](onboard-windows-server.md). |
 | Datacenter | One of the following datacenter locations: <br/>- European Union <br/>- United Kingdom <br/>- United States |
 
 
@@ -114,10 +116,10 @@ When you're ready to onboard your organization's endpoints, you can choose from 
 
 |Endpoint|Deployment tool|
 |---|---|
-|**Windows**|[Local script (up to 10 devices)](configure-endpoints-script.md) <br>  [Group Policy](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI scripts](configure-endpoints-vdi.md)|
-|**macOS**|[Local script](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md)|
-|**Android**|[Microsoft Endpoint Manager](android-intune.md)|
-|**iOS**|[Microsoft Endpoint Manager](ios-install.md) <br> [Mobile Application Manager](ios-install-unmanaged.md) |
+|**Windows**|[Local script (up to 10 devices)](configure-endpoints-script.md) <br>  [Group Policy](configure-endpoints-gp.md) <br>  [Microsoft Intune/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI scripts](configure-endpoints-vdi.md)|
+|**macOS**|[Local script](mac-install-manually.md) <br> [Microsoft Intune](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md)|
+|**Android**|[Microsoft Intune](android-intune.md)|
+|**iOS**|[Microsoft Intune](ios-install.md) <br> [Mobile Application Manager](ios-install-unmanaged.md) |
 
 
 Then, proceed to configure your next-generation protection and attack surface reduction capabilities.
@@ -400,3 +402,4 @@ To help with planning your WDAC deployment, see the following resources:
 Now that you have gone through the setup and configuration process, your next step is to get started using Defender for Endpoint. 
 
 - [Get started with Defender for Endpoint Plan 1](mde-plan1-getting-started.md)
+[!INCLUDE [Microsoft Defender for Endpoint Tech Community](../../includes/defender-mde-techcommunity.md)]

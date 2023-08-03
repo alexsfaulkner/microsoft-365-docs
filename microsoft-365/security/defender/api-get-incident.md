@@ -16,10 +16,11 @@ audience: ITPro
 ms.collection: 
  - m365-security
  - tier3
-ms.topic: conceptual
+ - must-keep
+ms.topic: reference
 ms.custom: api
 search.appverid: met150
-ms.date: 06/10/2021
+ms.date: 02/08/2023
 ---
 
 # Get incident information API
@@ -36,7 +37,7 @@ ms.date: 06/10/2021
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 > [!NOTE]
-> **Try our new APIs using MS Graph security API**. Find out more at: [Use the Microsoft Graph security API - Microsoft Graph beta | Microsoft Learn](/graph/api/resources/security-api-overview).
+> **Try our new APIs using MS Graph security API**. Find out more at: [Use the Microsoft Graph security API - Microsoft Graph | Microsoft Learn](/graph/api/resources/security-api-overview).
 
 ## API description
 
@@ -94,6 +95,7 @@ Here's an example of the request.
 ```http
 GET https://api.security.microsoft.com/api/incidents/{id}
 ```
-## Related topics
+## Related articles
 
-[Use the Microsoft Graph security API - Microsoft Graph beta | Microsoft Learn](/graph/api/resources/security-api-overview)
+[Use the Microsoft Graph security API - Microsoft Graph | Microsoft Learn](/graph/api/resources/security-api-overview)
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/defender-m3d-techcommunity.md)]
